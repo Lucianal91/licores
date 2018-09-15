@@ -23,16 +23,15 @@
 	  <div class="mdl-layout__drawer">
 	    <span class="mdl-layout-title">LICORES</span>
 	    <nav class="mdl-navigation">
-	      <a class="mdl-navigation__link" href="#nosotros">Nosotros</a>
 	      <a class="mdl-navigation__link" href="#historia">Historia</a>
+	      <a class="mdl-navigation__link" href="#carouselbols">Carrousel</a>
 	      <a class="mdl-navigation__link" href="#contacto">Contacto</a>
 	          </nav>
 	  </div>
 	  <main class="mdl-layout__content">
 	  </main>
-	</div>
-  	
-    <div class="carouselbols">
+    
+    <div id="carouselbols">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -73,28 +72,31 @@
       </div>
     </div>
 
-  	<section id="contacto">
-  		<h1 class="titulo">Contacto</h1>
-		<form action="#">
-		  <div class="mdl-textfield mdl-js-textfield">
-		    <input class="mdl-textfield__input" type="text" id="sample1">
-		    <label class="mdl-textfield__label" for="sample1">Nombre...</label>
-		  </div> <br>
-		  <div class="mdl-textfield mdl-js-textfield">
-		    <input class="mdl-textfield__input" type="text" id="sample1">
-		    <label class="mdl-textfield__label" for="sample1">Apellido...</label>
-		  </div> <br>
-		  <div class="mdl-textfield mdl-js-textfield">
-		    <input class="mdl-textfield__input" type="text" id="sample1">
-		    <label class="mdl-textfield__label" for="sample1">Email...</label>
-		  </div> <br>
-		  <div class="mdl-textfield mdl-js-textfield">
-		    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2">
-		    <label class="mdl-textfield__label" for="sample2">Edad...</label>
-		    <span class="mdl-textfield__error">Input is not a number!</span>
-		  </div> <br>
-		</form>
-	</section>   
+    <section id="contacto">
+      <h1 class="titulo">Contacto</h1>
+    <form action="#">
+      <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input borde_inferior" type="text" id="sample1" required>
+        <label class="mdl-textfield__label verde" for="sample1">*Nombre...</label>
+      </div> <br>
+      <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input borde_inferior" type="text" id="sample1" required>
+        <label class="mdl-textfield__label verde" for="sample1">*Apellido...</label>
+      </div> <br>
+      <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input borde_inferior" type="text" id="sample1" required>
+        <label class="mdl-textfield__label verde" for="sample1">Email...</label>
+      </div> <br>
+      <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input borde_inferior" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2">
+        <label class="mdl-textfield__label verde" for="sample2">Edad...</label>
+        <span class="mdl-textfield__error">Input is not a number!</span>
+      </div> <br>
+      <input type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+    </form>
+  </section>
+
+	</div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
