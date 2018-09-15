@@ -1,4 +1,15 @@
-<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+ *{
+ 	margin:0px;
+ }
+
+
+html, body, .mdl-layout-title {
+  font-family: 'Source Sans Pro', sans-serif !important;
+  box-sizing: border-box;
+}
+
 #contacto{
 	margin-left: 1em;
     background: radial-gradient(#fff, #499a3bc2);
@@ -11,20 +22,6 @@
     border-bottom: dotted #03a9f4;
     text-align: center;
 }
-=======
-<<<<<<< HEAD
- @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
-
- *{
- 	margin:0px;
- }
-
-
-html, body, .mdl-layout-title {
-  font-family: 'Source Sans Pro', sans-serif !important;
-  box-sizing: border-box;
-}
-
 
 .demo-layout-transparent {
 	background: url('https://http2.mlstatic.com/licores-cusenier-D_NQ_NP_722131-MLA25597610867_052017-F.jpg') center / cover;
@@ -46,9 +43,7 @@ html, body, .mdl-layout-title {
 	border:none;
 }
 
-=======
+
 .carouselbols img{
-	height: 600px;
+	height: 300px;
 }
->>>>>>> fc377f72bc26b73821633fdb4bf041a7ed5bff51
->>>>>>> 9dd157df0f543d9d7fc0e650c499b8d348634b12
