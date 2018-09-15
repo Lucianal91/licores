@@ -1,0 +1,33 @@
+ @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+ *{
+ 	margin:0px;
+ }
+
+
+html, body, .mdl-layout-title {
+  font-family: 'Source Sans Pro', sans-serif !important;
+  box-sizing: border-box;
+}
+
+
+.demo-layout-transparent {
+	background: url('https://http2.mlstatic.com/licores-cusenier-D_NQ_NP_722131-MLA25597610867_052017-F.jpg') center / cover;
+		}
+
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button{
+   color: white;}
+
+.mdl-layout__drawer {background: white;
+
+}
+.mdl-layout-title {
+	color:black;
+	
+}
+
+.mdl-layout__drawer{
+	border:none;
+}
+
