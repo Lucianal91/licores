@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
  *{
@@ -31,3 +32,8 @@ html, body, .mdl-layout-title {
 	border:none;
 }
 
+=======
+.carouselbols img{
+	height: 600px;
+}
+>>>>>>> fc377f72bc26b73821633fdb4bf041a7ed5bff51
