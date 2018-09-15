@@ -1,0 +1,12 @@
+#contacto{
+	margin-left: 1em;
+    background: radial-gradient(#fff, #499a3bc2);
+}
+
+.titulo{
+	font-size: 2rem;
+    font-weight: bold;
+    color: #03a9f4;
+    border-bottom: dotted #03a9f4;
+    text-align: center;
+}
