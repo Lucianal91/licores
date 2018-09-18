@@ -37,6 +37,7 @@ html, body, .mdl-layout-title, .titulo {
 
 #contacto{
 	padding: 1em;
+	text-align: center;
 }
 
 .titulo{
@@ -48,9 +49,14 @@ html, body, .mdl-layout-title, .titulo {
 }
 
 .borde_inferior{
+	color: #03a9f4;
 	border-bottom: 1px solid #4CAF50;
 }
 
 .verde{
 	color: #4CAF50;
+}
+
+.fondo_azul{
+	background: #1a237e;
 }

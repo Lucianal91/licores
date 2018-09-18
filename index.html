@@ -16,20 +16,20 @@
 </head>
 <body>
 
-	<div class="demo-layout-transparent mdl-layout mdl-js-layout">
-	  <header class="mdl-layout__header mdl-layout__header--transparent">
-	    
-	  </header>
-	  <div class="mdl-layout__drawer">
-	    <span class="mdl-layout-title">LICORES</span>
-	    <nav class="mdl-navigation">
-	      <a class="mdl-navigation__link" href="#historia">Historia</a>
-	      <a class="mdl-navigation__link" href="#carouselbols">Carrousel</a>
-	      <a class="mdl-navigation__link" href="#contacto">Contacto</a>
-	          </nav>
-	  </div>
-	  <main class="mdl-layout__content">
-	  </main>
+  <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+    <header class="mdl-layout__header mdl-layout__header--transparent">
+      
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">LICORES</span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="#historia">Historia</a>
+        <a class="mdl-navigation__link" href="#carouselbols">Carrousel</a>
+        <a class="mdl-navigation__link" href="#contacto">Contacto</a>
+      </nav>
+    </div>
+    <main class="mdl-layout__content">
+    </main>
     
     <div id="carouselbols">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -74,29 +74,103 @@
 
     <section id="contacto">
       <h1 class="titulo">Contacto</h1>
-    <form action="#">
-      <div class="mdl-textfield mdl-js-textfield">
-        <input class="mdl-textfield__input borde_inferior" type="text" id="sample1" required>
-        <label class="mdl-textfield__label verde" for="sample1">*Nombre...</label>
-      </div> <br>
-      <div class="mdl-textfield mdl-js-textfield">
-        <input class="mdl-textfield__input borde_inferior" type="text" id="sample1" required>
-        <label class="mdl-textfield__label verde" for="sample1">*Apellido...</label>
-      </div> <br>
-      <div class="mdl-textfield mdl-js-textfield">
-        <input class="mdl-textfield__input borde_inferior" type="text" id="sample1" required>
-        <label class="mdl-textfield__label verde" for="sample1">Email...</label>
-      </div> <br>
-      <div class="mdl-textfield mdl-js-textfield">
-        <input class="mdl-textfield__input borde_inferior" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2">
-        <label class="mdl-textfield__label verde" for="sample2">Edad...</label>
-        <span class="mdl-textfield__error">Input is not a number!</span>
-      </div> <br>
-      <input type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
-    </form>
-  </section>
+      <form action="#">
+        <div class="mdl-textfield mdl-js-textfield">
+          <input class="mdl-textfield__input borde_inferior" type="text" id="sample1" required>
+          <label class="mdl-textfield__label verde" for="sample1">*Nombre...</label>
+        </div> 
+        <br>
+        <div class="mdl-textfield mdl-js-textfield">
+          <input class="mdl-textfield__input borde_inferior" type="text" id="sample2" required>
+          <label class="mdl-textfield__label verde" for="sample2">*Apellido...</label>
+        </div>
+        <br> 
+        <div class="mdl-textfield mdl-js-textfield">
+          <input class="mdl-textfield__input borde_inferior" type="email" id="sample3" required>
+          <label class="mdl-textfield__label verde" for="sample3">*Email...</label>
+        </div>
+        <br>
+        <div class="mdl-textfield mdl-js-textfield">
+          <input class="mdl-textfield__input borde_inferior" type="number" pattern="-?[0-9]*(\.[0-9]+)?" id="sample4">
+          <label class="mdl-textfield__label verde" for="sample4">Edad...</label>
+          <span class="mdl-textfield__error">Input is not a number!</span>
+        </div>
+        <br>
+        <div class="mdl-textfield mdl-js-textfield verde">
+          <span>Tengo mas de 18 años</span>          
+          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+            <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" required>
+            <span class="mdl-radio__label">Si</span>
+          </label>
+          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+            <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
+            <span class="mdl-radio__label">No</span>
+          </label>
+        </div>
+        <br>    
+        <input type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+      </form>
+    </section>
 
-	</div>
+    <footer class="mdl-mega-footer fondo_azul">
+      <div class="mdl-mega-footer__middle-section">
+
+        <div class="mdl-mega-footer__drop-down-section">
+          <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+          <h1 class="mdl-mega-footer__heading">Features</h1>
+          <ul class="mdl-mega-footer__link-list">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Updates</a></li>
+          </ul>
+        </div>
+
+        <div class="mdl-mega-footer__drop-down-section">
+          <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+          <h1 class="mdl-mega-footer__heading">Details</h1>
+          <ul class="mdl-mega-footer__link-list">
+            <li><a href="#">Specs</a></li>
+            <li><a href="#">Tools</a></li>
+            <li><a href="#">Resources</a></li>
+          </ul>
+        </div>
+
+        <div class="mdl-mega-footer__drop-down-section">
+          <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+          <h1 class="mdl-mega-footer__heading">Technology</h1>
+          <ul class="mdl-mega-footer__link-list">
+            <li><a href="#">How it works</a></li>
+            <li><a href="#">Patterns</a></li>
+            <li><a href="#">Usage</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contracts</a></li>
+          </ul>
+        </div>
+
+        <div class="mdl-mega-footer__drop-down-section">
+          <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+          <h1 class="mdl-mega-footer__heading">FAQ</h1>
+          <ul class="mdl-mega-footer__link-list">
+            <li><a href="#">Questions</a></li>
+            <li><a href="#">Answers</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="mdl-mega-footer__bottom-section">
+        <div class="mdl-logo">Title</div>
+        <ul class="mdl-mega-footer__link-list">
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Privacy & Terms</a></li>
+        </ul>
+      </div>
+
+    </footer>
+
+  </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
