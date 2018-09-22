@@ -1,9 +1,4 @@
-
-
-
-
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
-
 
  *{
  	margin:0px;
@@ -36,13 +31,6 @@ html, body, .mdl-layout-title, .titulo {
 	border:none;
 }
 
-<<<<<<< HEAD
-
-.carouselbols img{
-	height: 600px;
-}
-
-
 #carouselbols img{
 	height: 300px;
 }
@@ -72,4 +60,3 @@ html, body, .mdl-layout-title, .titulo {
 .fondo_azul{
 	background: #1a237e;
 }
-
